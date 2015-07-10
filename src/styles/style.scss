@@ -1,0 +1,36 @@
+@import './variables';
+@import './docs';
+
+.big-profile-picture {
+  float: left;
+  margin-right: 100px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  p a {
+    color: #fff;
+  }
+}
+
+.homepage {
+  background: $brand-blue;
+  height: 100%;
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 0.9em;
+
+    a {
+      color: #fff;
+      font-weight: 200;
+    }
+  }
+}
