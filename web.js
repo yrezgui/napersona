@@ -10,14 +10,16 @@ var yaml    = require('js-yaml');
 var fs      = require('fs');
 
 var general   = yaml.safeLoad(fs.readFileSync('config/general.yaml', 'utf8'));
-var links     = yaml.safeLoad(fs.readFileSync('config/links.yaml', 'utf8'));
+var social    = yaml.safeLoad(fs.readFileSync('config/social.yaml', 'utf8'));
+var header    = yaml.safeLoad(fs.readFileSync('config/header.yaml', 'utf8'));
 var jobs      = yaml.safeLoad(fs.readFileSync('config/jobs.yaml', 'utf8'));
 var projects  = yaml.safeLoad(fs.readFileSync('config/projects.yaml', 'utf8'));
 
 var config = {
   projects: projects,
   general: general,
-  links: links,
+  header: header,
+  social: social,
   jobs: jobs
 };
 

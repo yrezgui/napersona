@@ -12,7 +12,11 @@ export default class Homepage extends React.Component {
 
     return (
       <div className="homepage">
-        <Header fullName={fullName} links={this.props.config.links} />
+        <Header
+          baseUrl={general.baseUrl}
+          fullName={fullName}
+          links={this.props.config.header}
+        />
         <div className="jumbotron">
           <div className="container">
             <img src="profile.png" className="big-profile-picture" />

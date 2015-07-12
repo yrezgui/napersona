@@ -5,20 +5,24 @@ export default class Header extends React.Component {
     super(props);
   }
 
+  generateLink(item, index) {
+    if (item.newTab) {
+      return <a key={index} href={item.url} target="_blank">{item.name}</a>;
+    } else {
+      return <a key={index} href={item.url}>{item.name}</a>;
+    }
+  }
+
   render() {
     return (
       <header className="masthead">
         <div className="container">
-          <a className="masthead-logo" href={this.props.links.baseUrl}>
+          <a className="masthead-logo" href={this.props.baseUrl}>
             {this.props.fullName}
           </a>
 
           <nav className="masthead-nav">
-            <a href="/about-me">Me</a>
-            <a href="/resume">Resume</a>
-            <a href={this.props.links.blog} target="_blank">Blog</a>
-            <a href={'https://twitter.com/' + this.props.links.twitter} target="_blank">Twitter</a>
-            <a href={'https://github.com/' + this.props.links.github} target="_blank">GitHub</a>
+            {this.props.links.map(this.generateLink)}
           </nav>
         </div>
       </header>
