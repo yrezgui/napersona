@@ -1,5 +1,3 @@
-Interested to hire me (remote please) ? Send me a [mail](http://www.google.com/recaptcha/mailhide/d?k=01KX-wj5DHMcCe1Wdz8AbyVw==&c=U3IeiQp0Xxk7PsZE4VGRUfBk9EqUqz46dpG5lQkenC4=). No agencies sorry.
-
 ### In short ?
 
 I'm a full-stack JavaScript engineer, based in London.

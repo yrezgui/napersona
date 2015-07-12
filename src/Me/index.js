@@ -1,5 +1,6 @@
 import React  from 'react';
 import Header from '../Header';
+import HireMe from '../HireMe';
 import Footer from '../Footer';
 
 export default class Me extends React.Component {
@@ -22,10 +23,10 @@ export default class Me extends React.Component {
           <div className="columns docs-layout">
             <div className="three-fourths column markdown-body">
               <h1 className="page-title">More about me</h1>
-              <div
-                className="markdown-body"
-                dangerouslySetInnerHTML={{__html:this.props.config.me}}
-              />
+              <div className="markdown-body">
+                <HireMe />
+                <div dangerouslySetInnerHTML={{__html:this.props.config.me}} />
+              </div>
             </div>
           </div>
           <Footer />
