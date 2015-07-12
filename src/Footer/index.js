@@ -1,4 +1,5 @@
-import React from 'react';
+import React      from 'react';
+import classNames from 'classnames';
 
 export default class Footer extends React.Component {
   constructor(props) {
@@ -6,11 +7,10 @@ export default class Footer extends React.Component {
   }
 
   render() {
-    let className = 'footer';
-
-    if (this.props.noStyle) {
-      className = '';
-    }
+    const className = classNames({
+      'no-print': true,
+      'footer': !this.props.noStyle
+    });
 
     return (
       <footer className={className}>

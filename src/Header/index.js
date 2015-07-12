@@ -21,7 +21,7 @@ export default class Header extends React.Component {
             {this.props.fullName}
           </a>
 
-          <nav className="masthead-nav">
+          <nav className="masthead-nav no-print">
             {this.props.links.map(this.generateLink)}
           </nav>
         </div>
