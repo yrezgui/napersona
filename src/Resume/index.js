@@ -1,4 +1,7 @@
-import React from 'react';
+import React  from 'react';
+import Header from '../Header';
+import HireMe from '../HireMe';
+import Footer from '../Footer';
 
 export default class Resume extends React.Component {
   constructor(props) {
@@ -6,14 +9,27 @@ export default class Resume extends React.Component {
   }
 
   render() {
+    const general   = this.props.config.general;
+    const fullName  = `${general.firstName} ${general.lastName}`;
 
     return (
-      <div className="three-fourths column markdown-body large-on-small-device">
-        <blockquote>
-          <p>{this.props.description}</p>
-        </blockquote>
-        {this.props.content}
-        <br />
+      <div>
+        <Header
+          baseUrl={general.baseUrl}
+          fullName={fullName}
+          links={this.props.config.header}
+        />
+        <div className="container">
+          <div className="columns docs-layout">
+            <div className="three-fourths column markdown-body">
+              <h1 className="page-title">Resume</h1>
+              <div className="markdown-body">
+                <HireMe availableForWork={general.availableForWork} />
+              </div>
+            </div>
+          </div>
+          <Footer />
+        </div>
       </div>
     );
   }
