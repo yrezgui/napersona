@@ -1,6 +1,7 @@
 ---
+  baseUrl: http://localhost:3210
   firstName: Yacine
   lastName: Rezgui
-  jobTitle: Lead Front End
+  jobTitle: Front End Lead
   company: import.io
   companyUrl: https://import.io
