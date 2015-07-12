@@ -1,7 +1,7 @@
 {
-  "name": "dev-persona",
+  "name": "napersona",
   "version": "1.0.0",
-  "description": "Generate easily your personal developer website",
+  "description": "Generate easily your personal website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yrezgui/dev-persona.git"
+    "url": "git+https://github.com/yrezgui/napersona.git"
   },
   "keywords": [
     "developer",
@@ -23,9 +23,9 @@
   "author": "Yacine Rezgui <rezgui.y@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/yrezgui/dev-persona/issues"
+    "url": "https://github.com/yrezgui/napersona/issues"
   },
-  "homepage": "https://github.com/yrezgui/dev-persona#readme",
+  "homepage": "https://github.com/yrezgui/napersona#readme",
   "devDependencies": {
     "babel": "^5.6.14",
     "express": "^4.13.1",

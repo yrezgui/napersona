@@ -1,2 +1,2 @@
-# dev-persona
-Generate easily your personal developer website
+# Napersona
+Generate easily your personal website

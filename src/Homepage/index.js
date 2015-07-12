@@ -28,7 +28,7 @@ export default class Homepage extends React.Component {
           </div>
         </div>
         <footer>
-          powered by <a href="https://github.com/yrezgui/dev-persona" target="_blank">Dev Persona</a>
+          powered by <a href="https://github.com/yrezgui/napersona" target="_blank">Napersona</a>
         </footer>
       </div>
     );
