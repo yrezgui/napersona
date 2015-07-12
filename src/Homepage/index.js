@@ -1,5 +1,6 @@
 import React  from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 
 export default class Homepage extends React.Component {
   constructor(props) {
@@ -27,13 +28,13 @@ export default class Homepage extends React.Component {
               <a href={general.companyUrl} target="_blank">
                 {general.company}
               </a>
+              <br />
+              Organizer DevRocket UK
             </p>
             <a className="btn btn-reverse" href="me.html">About me</a>
           </div>
         </div>
-        <footer>
-          powered by <a href="https://github.com/yrezgui/napersona" target="_blank">Napersona</a>
-        </footer>
+        <Footer noStyle={true} />
       </div>
     );
   }
