@@ -24,7 +24,7 @@ export default class Me extends React.Component {
             <div className="three-fourths column markdown-body">
               <h1 className="page-title">More about me</h1>
               <div className="markdown-body">
-                <HireMe />
+                <HireMe availableForWork={general.availableForWork} />
                 <div dangerouslySetInnerHTML={{__html:this.props.config.me}} />
               </div>
             </div>
