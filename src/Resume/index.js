@@ -1,17 +1,24 @@
 import React  from 'react';
+import marked from 'marked';
 import Header from '../Header';
 import HireMe from '../HireMe';
 import Footer from '../Footer';
 import Export from './Export';
+import Job    from './Job';
 
 export default class Resume extends React.Component {
   constructor(props) {
     super(props);
   }
 
+  renderJob(details, index) {
+    return <Job key={index} details={details} />;
+  }
+
   render() {
     const general   = this.props.config.general;
     const fullName  = `${general.firstName} ${general.lastName}`;
+    const summary   = marked(this.props.config.resume.summary);
 
     return (
       <div>
@@ -29,6 +36,8 @@ export default class Resume extends React.Component {
               </h1>
               <div className="markdown-body">
                 <HireMe availableForWork={general.availableForWork} />
+                <div dangerouslySetInnerHTML={{__html: summary}} />
+                {this.props.config.resume.jobs.map(this.renderJob)}
               </div>
             </div>
           </div>
