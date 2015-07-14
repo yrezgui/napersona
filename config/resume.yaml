@@ -21,7 +21,11 @@
         - gulp
         - ci
       description: |
-        Creating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
+        Create tools consuming our APIs. Prototype new features.
+
+        Migrate a static Jenkins build system to a continious integration using CircleCI.
+
+        Experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team. Train the team on these new tech stacks.
     -
       title: Web Developer
       company: import.io
@@ -34,7 +38,7 @@
         - reactjs
         - grunt
       description: |
-        Creating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
+        Set common coding principles within the team. Improving existing AngularJS and KnockoutJS apps. Create a tool used by thousands of users with ReactJS.
     -
       title: Web Developer
       company: GovernorHub
