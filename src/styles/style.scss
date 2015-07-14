@@ -35,6 +35,78 @@
   }
 }
 
+.job-item {
+  margin-top: 50px;
+
+  h2 {
+    font-size: 1.25em;
+    
+    span {
+      font-weight: normal;
+    }
+  }
+
+  span.state {
+    font-weight: normal;
+    font-size: 13px;
+    margin-right: 5px;
+  }
+}
+
+span.skill {
+  &.nodejs {
+    background-color: #80BD01;
+  }
+
+  &.reactjs {
+    background-color: #2D2D2D;
+  }
+
+  &.cordova {
+    background-color: #3B4854;
+  }
+
+  &.ionic {
+    background-color: #3273DD;
+  }
+
+  &.angularjs {
+    background-color: #DD1B16;
+  }
+
+  &.jquery {
+    background-color: #0769AD;
+  }
+
+  &.php {
+    background-color: #4F5B93;
+  }
+
+  &.mysql {
+    background-color: #015A84;
+  }
+
+  &.redis {
+    background-color: #DA2C22;
+  }
+
+  &.mongodb {
+    background-color: #3B291F;
+  }
+
+  &.gulp {
+    background-color: #CF4646;
+  }
+
+  &.grunt {
+    background-color: #E48632;
+  }
+
+  &.aws {
+    background-color: #F7981D;
+  }
+}
+
 @media print {    
   .no-print, .no-print * {
     display: none !important;
