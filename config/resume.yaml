@@ -1,6 +1,7 @@
 ---
   summary: >
     I'm a full-stack JavaScript engineer, based in London. Organiser of [DevRocket UK meetup](http://www.meetup.com/devrocketuk/).
+  exportFile: resume.pdf
 
     I create scalable front architectures with ReactJS & Flux (or AngularJS) and a complete build system.
 

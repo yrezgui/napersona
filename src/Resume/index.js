@@ -2,7 +2,7 @@ import React  from 'react';
 import Header from '../Header';
 import HireMe from '../HireMe';
 import Footer from '../Footer';
-import Print  from './Print';
+import Export from './Export';
 
 export default class Resume extends React.Component {
   constructor(props) {
@@ -24,8 +24,8 @@ export default class Resume extends React.Component {
           <div className="columns docs-layout">
             <div className="three-fourths column markdown-body">
               <h1 className="page-title">
-                Resume
-                <Print />
+                {general.jobTitle}
+                <Export exportFile={this.props.config.resume.exportFile} />
               </h1>
               <div className="markdown-body">
                 <HireMe availableForWork={general.availableForWork} />

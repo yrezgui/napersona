@@ -7,7 +7,7 @@ export default class Print extends React.Component {
 
   render() {
     return (
-      <a className="btn btn-sm right no-print" href="javascript:window.print();" onClick="window.print()">Print</a>
+      <a className="btn btn-sm" href="javascript:window.print();" onClick="window.print()">Print</a>
     );
   }
 }
