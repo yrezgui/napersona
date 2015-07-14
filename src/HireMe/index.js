@@ -11,7 +11,7 @@ export default class HireMe extends React.Component {
     }
 
     return (
-      <p>
+      <p className="no-print">
         Interested to hire me (remote please) ? Send me a <a href="http://www.google.com/recaptcha/mailhide/d?k=01KX-wj5DHMcCe1Wdz8AbyVw==&c=U3IeiQp0Xxk7PsZE4VGRUfBk9EqUqz46dpG5lQkenC4=" target="_blank">mail</a>. No agencies sorry.
       </p>
     );
