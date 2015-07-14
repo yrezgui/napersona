@@ -1,7 +1,7 @@
 ---
-  summary: >
-    I'm a full-stack JavaScript engineer, based in London. Organiser of [DevRocket UK meetup](http://www.meetup.com/devrocketuk/).
   exportFile: resume.pdf
+  summary: |
+    I'm a full-stack JavaScript engineer, based in London. Organiser of [DevRocket UK meetup](http://www.meetup.com/devrocketuk/). Check my [GitHub](https://github.com/yrezgui) and my [Twitter](https://twitter.com/yrezgui).
 
     I create scalable front architectures with ReactJS & Flux (or AngularJS) and a complete build system.
 
@@ -14,15 +14,14 @@
       company: import.io
       url: https://import.io
       start: 2015-03-01
-      end: 2015-08-01
       skills:
         - nodejs
         - reactjs
         - aws
         - gulp
         - ci
-      description: >
-        Click to edit position descriptionCreating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
+      description: |
+        Creating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
     -
       title: Web Developer
       company: import.io
@@ -34,7 +33,7 @@
         - angularjs
         - reactjs
         - grunt
-      description: >
+      description: |
         Creating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
     -
       title: Web Developer
@@ -48,7 +47,7 @@
         - redis
         - cordova
         - ionic
-      description: >
+      description: |
         Working on all engineer areas of the company including the AngularJS browser application, Node.js server and Amazon Web Services infrastructure.
 
         Develop a complete new build system using Gulp including deployment to S3 + CloudFront. 
@@ -64,5 +63,5 @@
         - php
         - mysql
         - jquery
-      description: >
+      description: |
         Create complex intern management portal and Renault Corporation website using CodeIgniter and jQuery.

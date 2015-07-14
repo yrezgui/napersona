@@ -20,7 +20,7 @@ function loadMarkdown (file) {
 var general   = loadYaml('config/general.yaml');
 var social    = loadYaml('config/social.yaml');
 var header    = loadYaml('config/header.yaml');
-var jobs      = loadYaml('config/jobs.yaml');
+var resume    = loadYaml('config/resume.yaml');
 var projects  = loadYaml('config/projects.yaml');
 var me        = loadMarkdown('config/me.md');
 
@@ -29,7 +29,7 @@ var config = {
   general: general,
   header: header,
   social: social,
-  jobs: jobs,
+  resume: resume,
   me: me
 };
 
