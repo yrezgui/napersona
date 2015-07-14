@@ -1,0 +1,67 @@
+---
+  summary: >
+    I'm a full-stack JavaScript engineer, based in London. Organiser of [DevRocket UK meetup](http://www.meetup.com/devrocketuk/).
+
+    I create scalable front architectures with ReactJS & Flux (or AngularJS) and a complete build system.
+
+    I architect web services, interacting with external APIs, connecting to different databases as MySQL, MongoDB, Redis using NodeJS.
+
+    I develop from scratch HTML5 mobile app using Cordova/Phonegap or React Native.
+  jobs:
+    -
+      title: Front End Lead
+      company: import.io
+      url: https://import.io
+      start: 2015-03-01
+      end: 2015-08-01
+      skills:
+        - nodejs
+        - reactjs
+        - aws
+        - gulp
+        - ci
+      description: >
+        Click to edit position descriptionCreating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
+    -
+      title: Web Developer
+      company: import.io
+      url: https://import.io
+      start: 2014-10-01
+      end: 2015-03-01
+      skills:
+        - nodejs
+        - angularjs
+        - reactjs
+        - grunt
+      description: >
+        Creating tools consuming our APIs, prototyping features, experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team.
+    -
+      title: Web Developer
+      company: GovernorHub
+      url: https://governorhub.com
+      start: 2013-07-01
+      end: 2014-10-01
+      skills:
+        - nodejs
+        - mongodb
+        - redis
+        - cordova
+        - ionic
+      description: >
+        Working on all engineer areas of the company including the AngularJS browser application, Node.js server and Amazon Web Services infrastructure.
+
+        Develop a complete new build system using Gulp including deployment to S3 + CloudFront. 
+
+        Create from scratch a mobile app (File synchronization, Offline access, Mobile UI/UX) using Cordova & Ionic Framework.
+    -
+      title: Web Developer
+      company: Tequila Rapido
+      url: http://www.tequilarapido.com
+      start: 2012-09-01
+      end: 2013-07-01
+      skills:
+        - php
+        - mysql
+        - jquery
+      description: >
+        Create complex intern management portal and Renault Corporation website using CodeIgniter and jQuery.
