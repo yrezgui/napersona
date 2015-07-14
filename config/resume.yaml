@@ -23,7 +23,7 @@
       description: |
         Create tools consuming our APIs. Prototype new features.
 
-        Migrate a static Jenkins build system to a continious integration using CircleCI.
+        Migrate a static Jenkins build system to a continuous integration using CircleCI.
 
         Experimenting new frameworks, libraries and languages to provide the best toolbox for the developers of my team. Train the team on these new tech stacks.
     -
@@ -68,4 +68,6 @@
         - mysql
         - jquery
       description: |
-        Create complex intern management portal and Renault Corporation website using CodeIgniter and jQuery.
+        Create complex intern management portal and Renault Corporation website using PHP and jQuery. Develop an API with CodeIgniter and MySQL.
+
+        Make a worker to fetch products from a company partner and retry & save them automatically in a database.
